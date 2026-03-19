@@ -16,3 +16,4 @@ C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatio
 C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatioALMIntegration\Files\obj\Release\CrtTechUserCreatioALMIntegration.csproj.CoreCompileInputs.cache
 C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatioALMIntegration\Files\obj\Release\CrtTechUserCreatioALMIntegration.dll
 C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatioALMIntegration\Files\obj\Release\CrtTechUserCreatioALMIntegration.pdb
+C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatioALMIntegration\Files\obj\Release\CrtTechUserCreatioALMIntegration.sourcelink.json

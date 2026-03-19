@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrtCall")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.3.3.3193")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.3.3193")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.3.3193+cbabeb1fc478d4ac6f7412185447227066c66d8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrtCall")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrtCall")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.3.3.3193")]

@@ -16,3 +16,4 @@ C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebFarm\Files\o
 C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebFarm\Files\obj\Release\CrtWebFarm.csproj.CoreCompileInputs.cache
 C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebFarm\Files\obj\Release\CrtWebFarm.dll
 C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebFarm\Files\obj\Release\CrtWebFarm.pdb
+C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebFarm\Files\obj\Release\CrtWebFarm.sourcelink.json
