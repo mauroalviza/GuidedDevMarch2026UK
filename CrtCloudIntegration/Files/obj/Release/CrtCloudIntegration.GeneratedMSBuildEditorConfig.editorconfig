@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = CrtCloudIntegration
+build_property.ProjectDir = C:\Academy\D1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCloudIntegration\Files\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
