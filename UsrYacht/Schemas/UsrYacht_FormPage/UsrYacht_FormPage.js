@@ -119,7 +119,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_UsrStatus2_dvsd11c",
+					"label": "$Resources.Strings.PDS_UsrStatus_r42dzyu",
 					"ariaLabel": "",
 					"isAddAllowed": true,
 					"showValueAsLink": false,
@@ -127,7 +127,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"controlActions": [],
 					"listActions": [],
 					"tooltip": "",
-					"control": "$PDS_UsrStatus2_dvsd11c",
+					"control": "$PDS_UsrStatus_r42dzyu",
 					"visible": true,
 					"readonly": false,
 					"placeholder": "",
@@ -136,29 +136,6 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "Comment",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"colSpan": 1,
-						"row": 2,
-						"rowSpan": 1
-					},
-					"type": "crt.Input",
-					"label": "$Resources.Strings.PDS_UsrComment_zsm165q",
-					"control": "$PDS_UsrComment_zsm165q",
-					"placeholder": "",
-					"tooltip": "",
-					"readonly": false,
-					"multiline": false,
-					"labelPosition": "auto"
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -184,6 +161,29 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"readonly": false,
 					"placeholder": "",
 					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "Comment",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrComment_zsm165q",
+					"control": "$PDS_UsrComment_zsm165q",
+					"placeholder": "",
+					"tooltip": "",
+					"readonly": false,
+					"multiline": false,
+					"labelPosition": "auto"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -276,12 +276,12 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							"path": "PDS.UsrPassengersCount"
 						}
 					},
-					"PDS_UsrStatus2_dvsd11c": {
+					"PDS_UsrStatus_r42dzyu": {
 						"modelConfig": {
-							"path": "PDS.UsrStatus2"
+							"path": "PDS.UsrStatus"
 						}
 					},
-					"PDS_UsrStatus2_dvsd11c_List": {
+					"PDS_UsrStatus_r42dzyu_List": {
 						"isCollection": true,
 						"modelConfig": {
 							"sortingConfig": {

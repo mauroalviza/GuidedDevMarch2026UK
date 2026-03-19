@@ -9,6 +9,7 @@
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
 			<Item Name="Columns.UsrPassengersCount.Caption" Value="Passengers Count" />
 			<Item Name="Columns.UsrPrice.Caption" Value="Price" />
+			<Item Name="Columns.UsrStatus.Caption" Value="Status" />
 		</Items>
 	</Group>
 </Resources>
