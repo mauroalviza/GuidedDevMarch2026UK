@@ -1,4 +1,4 @@
-create or alter view UsrVwContactAgeDays
+create or alter view UsrVwContactAgeDays2
 as
 select Id as UsrId, Name as UsrName, BirthDate as UsrBirthDate,
 datediff(day, BirthDate, getdate()) as UsrAgeDays,
