@@ -3,7 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yacht drive type" />
-			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+			<Item Name="Columns.UsrMyColor.Caption" Value="My Color" />
 		</Items>
 	</Group>
 </Resources>

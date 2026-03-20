@@ -139,6 +139,29 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "Comment",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrComment_zsm165q",
+					"control": "$PDS_UsrComment_zsm165q",
+					"placeholder": "",
+					"tooltip": "",
+					"readonly": false,
+					"multiline": false,
+					"labelPosition": "auto"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "Manager",
 				"values": {
 					"layoutConfig": {
@@ -161,29 +184,6 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"readonly": false,
 					"placeholder": "",
 					"valueDetails": null
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "Comment",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"colSpan": 1,
-						"row": 2,
-						"rowSpan": 1
-					},
-					"type": "crt.Input",
-					"label": "$Resources.Strings.PDS_UsrComment_zsm165q",
-					"control": "$PDS_UsrComment_zsm165q",
-					"placeholder": "",
-					"tooltip": "",
-					"readonly": false,
-					"multiline": false,
-					"labelPosition": "auto"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -211,6 +211,30 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "Number",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrNumber_17vuate",
+					"control": "$PDS_UsrNumber_17vuate",
+					"placeholder": "",
+					"tooltip": "",
+					"readonly": true,
+					"multiline": false,
+					"labelPosition": "auto",
+					"visible": true
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 5
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -292,6 +316,11 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 									}
 								]
 							}
+						}
+					},
+					"PDS_UsrNumber_17vuate": {
+						"modelConfig": {
+							"path": "PDS.UsrNumber"
 						}
 					}
 				}
