@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Yacht Rental" />
+			<Item Name="Columns.UsrComment.Caption" Value="Comment" />
+			<Item Name="Columns.UsrCustomer.Caption" Value="Customer" />
+			<Item Name="Columns.UsrEndDate.Caption" Value="End Date" />
+			<Item Name="Columns.UsrParentYacht.Caption" Value="Parent Yacht" />
+			<Item Name="Columns.UsrStartDate.Caption" Value="Start Date" />
+		</Items>
+	</Group>
+</Resources>

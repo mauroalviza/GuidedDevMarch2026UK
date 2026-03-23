@@ -50,7 +50,8 @@
                 "BRT2": 2
               }
             ],
-            "BR3": "BusinessRule_e4f7b4d"
+            "BR3": "BusinessRule_e4f7b4d",
+            "BR4": false
           },
           {
             "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
@@ -76,8 +77,7 @@
                       "UId": "d0616967-67fb-6cd7-0355-e6a8ce1c7835",
                       "BRE1": "Lookup",
                       "BRE3": "Country",
-                      "BVP1": "UsrCountry",
-                      "BVF1": "null"
+                      "BVP1": "UsrCountry"
                     }
                   }
                 ]
@@ -134,8 +134,7 @@
                           "UId": "7dbd06c8-f259-c848-3c01-fd876579704d",
                           "BRE1": "Lookup",
                           "BRE2": "AttributeValue",
-                          "BRX1": "UsrCity",
-                          "BRX2": "null"
+                          "BRX1": "UsrCity"
                         },
                         "BRA3": {
                           "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleEmptyValueExpression",
@@ -190,8 +189,7 @@
                           "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
                           "UId": "a1362d1f-27a7-7c4c-bc36-15628e112527",
                           "BRE2": "AttributeValue",
-                          "BRX1": "UsrCountry",
-                          "BRX2": "null"
+                          "BRX1": "UsrCountry"
                         },
                         "BRA3": {
                           "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
