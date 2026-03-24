@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.3.3.3193")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.3.3193+cbabeb1fc478d4ac6f7412185447227066c66d8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.3.3193+9d91a715339b6e40a0be10b3005e99f78c41dd3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.3.3.3193")]

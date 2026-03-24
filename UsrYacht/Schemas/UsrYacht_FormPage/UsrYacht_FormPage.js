@@ -40,6 +40,49 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "ButtonCalculateAvgPrice",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(ButtonCalculateAvgPrice_caption)#",
+					"color": "outline",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "left-icon",
+					"menuItems": [],
+					"clickMode": "menu",
+					"visible": true,
+					"icon": "actions-button-icon"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItemCalculatePrice",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItemCalculatePrice_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalcAverageTicketPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"notificationText": "#ResourceString(MenuItemCalculatePrice_clicked_params_notificationText)#",
+							"recordIdProcessParameterName": "YachtIdParameter"
+						}
+					},
+					"icon": "calculator-icon"
+				},
+				"parentName": "ButtonCalculateAvgPrice",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "PushMeButton",
 				"values": {
 					"type": "crt.Button",
@@ -57,7 +100,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
