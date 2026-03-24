@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "574962b9-a5e8-48e2-ac5d-daeb6bf53ed9",
+    "Name": "Account",
+    "ModifiedOnUtc": "\/Date(1774345854000)\/",
+    "Parent": {
+      "UId": "25d7c1ab-1de0-4501-b402-02e0e5a72d6e",
+      "Name": "Account"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Account",
+    "DependsOn": []
+  }
+}
