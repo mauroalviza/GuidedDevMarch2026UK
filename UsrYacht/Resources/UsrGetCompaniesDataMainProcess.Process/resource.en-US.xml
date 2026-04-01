@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Save | SaveButton" />
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Cancel | CancelButton" />
+			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="Ok" />
+			<Item Name="BaseElements.DefaultSequenceFlow1.Caption" Value="Not Ok" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Account.Caption" Value="Account" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.Caption" Value="Priority" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.DisplayValue" Value="ab96fa02-7fe6-df11-971b-001d60e938c6" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityResult.Caption" Value="Result of activity" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Buttons.Value.a27a333f-8126-439b-b805-f7e4b5867860.Caption" Value="Cancel | CancelButton" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Buttons.Value.a4dbab54-3837-4c80-b2a5-98bff9f78af1.Caption" Value="Save | SaveButton" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.Caption" Value="Module" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.DisplayValue" Value="Company Search Page | UsrCompanySearchPage" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Contact.Caption" Value="Contact" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.Caption" Value="Create activity" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.DisplayValue" Value="false" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CurrentActivityId.Caption" Value="Task Id" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.Caption" Value="Duration" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.DisplayValue" Value="5" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.Caption" Value="Duration (period)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntityId.Caption" Value="Object" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntitySchemaUId.Caption" Value="Object schema" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntryPointId.Caption" Value="Entry point" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.InformationOnStep.Caption" Value="Information on step" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.Caption" Value="Activity completed" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.DisplayValue" Value="false" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsRunning.Caption" Value="Running" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.Caption" Value="Card module" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.DisplayValue" Value="[#Lookup.Schema used in workspace (view) .Process page display module.eb89c336-08b9-4951-bffd-3f5abc433174#]" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OmniChat.Caption" Value="Chat" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.Caption" Value="Owner" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.DisplayValue" Value="[#System variable.Current user contact#]" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.PressedButtonCode.Caption" Value="Code of the button that the user clicked" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Recommendation.Caption" Value="Recommendation" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.Caption" Value="Remind owner in advance" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Remind owner in advance (period)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RoleId.Caption" Value="Role" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.Caption" Value="Show execution page automatically" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.DisplayValue" Value="true" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.Caption" Value="Show in calendar" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.DisplayValue" Value="false" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.Caption" Value="Start executing in" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.Caption" Value="Start executing in (period)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.Caption" Value="Template" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.DisplayValue" Value="[#Lookup.Schema used in workspace (view) .Tabbed page with area on top.21620f25-166f-42f1-8b4d-224a959040a3#]" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Caption" Value="Title" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.DisplayValue" Value="Company Search Page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Company Search Page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.Caption" Value="Url" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.DisplayValue" Value="&quot;[Module]/[Page]/add&quot;" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.Caption" Value="Use standard page generator" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.DisplayValue" Value="false" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UsrCompanyName.Caption" Value="CompanyName" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UsrCountryCode.Caption" Value="Country Code (2 letters)" />
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Save Company Data Subprocess " />
+			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Number of completed instances" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Adress.Caption" Value="Address" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Adress.DisplayValue" Value="[#Call DNB Service.Companies:Address#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Input record collection" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.City.Caption" Value="City" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.City.DisplayValue" Value="[#Call DNB Service.Companies:City#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.CompanyName.Caption" Value="CompanyName" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.CompanyName.DisplayValue" Value="[#Call DNB Service.Companies:CompanyName#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Country.Caption" Value="Country" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Country.DisplayValue" Value="[#Call DNB Service.Companies:Country#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#Call DNB Service.Companies#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.RegistrationNumber.Caption" Value="RegistrationNumber" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.RegistrationNumber.DisplayValue" Value="[#Call DNB Service.Companies:RegistrationNumber#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ZipCode.Caption" Value="ZipCode" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ZipCode.DisplayValue" Value="[#Call DNB Service.Companies:ZipCode#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Output record collection" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Number of terminated instances" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Total number of instances" />
+			<Item Name="BaseElements.TerminateEvent2.Caption" Value="ERR- Cancel" />
+			<Item Name="BaseElements.TerminateEvent3.Caption" Value="ERR- Call Failure" />
+			<Item Name="BaseElements.WebService1.Caption" Value="Call DNB Service" />
+			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCCode_In.Caption" Value="CountryCode" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCCode_In.DisplayValue" Value="[#PreconfiguredPageUserTask1.Country Code (2 letters)#]" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCompanies_Out.Caption" Value="Companies" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCompanies_Out.UsrCAddress_Out.Caption" Value="Address" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCompanies_Out.UsrCCName_Out.Caption" Value="CompanyName" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCompanies_Out.UsrCCity_Out.Caption" Value="City" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCompanies_Out.UsrCCountry_Out.Caption" Value="Country" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCompanies_Out.UsrCRNumber_Out.Caption" Value="RegistrationNumber" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCompanies_Out.UsrCZCode_Out.Caption" Value="ZipCode" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrPName_In.Caption" Value="PrimaryName" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrPName_In.DisplayValue" Value="[#PreconfiguredPageUserTask1.CompanyName#]" />
+			<Item Name="Caption" Value="Get Companies Data Main Process" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+		</Items>
+	</Group>
+</Resources>

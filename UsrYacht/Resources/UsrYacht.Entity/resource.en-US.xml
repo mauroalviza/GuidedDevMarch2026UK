@@ -3,16 +3,19 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yacht" />
+			<Item Name="Columns.UsrCaptain.Caption" Value="Captain" />
 			<Item Name="Columns.UsrCity.Caption" Value="City" />
 			<Item Name="Columns.UsrComment.Caption" Value="Comment" />
 			<Item Name="Columns.UsrCountry.Caption" Value="Country" />
+			<Item Name="Columns.UsrCrewCount.Caption" Value="Crew Count" />
 			<Item Name="Columns.UsrDriveType.Caption" Value="Drive type" />
+			<Item Name="Columns.UsrLength.Caption" Value="Length (m)" />
 			<Item Name="Columns.UsrManager.Caption" Value="Manager" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
 			<Item Name="Columns.UsrNumber.Caption" Value="Number" />
 			<Item Name="Columns.UsrPassengersCount.Caption" Value="Passengers Count" />
 			<Item Name="Columns.UsrPassengersCountInt.Caption" Value="Passengers Count" />
-			<Item Name="Columns.UsrPrice.Caption" Value="Price" />
+			<Item Name="Columns.UsrPrice.Caption" Value="Price per day, EUR" />
 			<Item Name="Columns.UsrStatus.Caption" Value="Status" />
 			<Item Name="Columns.UsrTicketPrice.Caption" Value="Ticket price, EUR" />
 		</Items>

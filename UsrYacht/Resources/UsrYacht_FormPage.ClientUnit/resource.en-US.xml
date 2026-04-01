@@ -18,6 +18,7 @@
 			<Item Name="LocalizableStrings.PassengersCountCannotBeLess.Value" Value="Passengers count cannot be less than 2!" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 200€" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push Me" />
+			<Item Name="LocalizableStrings.RunMaxPriceWebServiceMenuItem_caption.Value" Value="Run calc max price web service" />
 			<Item Name="LocalizableStrings.addRecord_0yx070p_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_3nss9d4_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_8uk3gpl_caption.Value" Value="Add new" />
@@ -25,6 +26,7 @@
 			<Item Name="LocalizableStrings.addRecord_km5sgxt_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_mc0gjb5_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_om7pt21_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_t4ec298_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_xrzwpn8_caption.Value" Value="Add new" />
 		</Items>
 	</Group>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="https://api.service.dnb.com" />
+			<Item Name="ServiceMethods.UsrMethod2.Caption" Value="/companyLookup/lookupInfoByName" />
+			<Item Name="ServiceMethods.UsrMethod2.Request.Parameters.UsrCCode.Caption" Value="CountryCode" />
+			<Item Name="ServiceMethods.UsrMethod2.Request.Parameters.UsrPName.Caption" Value="PrimaryName" />
+			<Item Name="ServiceMethods.UsrMethod2.Response.Parameters.UsrCompanies.Caption" Value="Companies" />
+			<Item Name="ServiceMethods.UsrMethod2.Response.Parameters.UsrCompanies.ItemProperties.UsrCAddress.Caption" Value="Address" />
+			<Item Name="ServiceMethods.UsrMethod2.Response.Parameters.UsrCompanies.ItemProperties.UsrCCName.Caption" Value="CompanyName" />
+			<Item Name="ServiceMethods.UsrMethod2.Response.Parameters.UsrCompanies.ItemProperties.UsrCCity.Caption" Value="City" />
+			<Item Name="ServiceMethods.UsrMethod2.Response.Parameters.UsrCompanies.ItemProperties.UsrCCountry.Caption" Value="Country" />
+			<Item Name="ServiceMethods.UsrMethod2.Response.Parameters.UsrCompanies.ItemProperties.UsrCRNumber.Caption" Value="RegistrationNumber" />
+			<Item Name="ServiceMethods.UsrMethod2.Response.Parameters.UsrCompanies.ItemProperties.UsrCZCode.Caption" Value="ZipCode" />
+		</Items>
+	</Group>
+</Resources>

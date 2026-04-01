@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4a146982-cff5-48bf-9432-2c51a1889021",
+    "Name": "UsrSaveCompanyDataSubprocess",
+    "ModifiedOnUtc": "\/Date(1774612253000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Save Company Data Subprocess",
+    "DependsOn": []
+  }
+}
