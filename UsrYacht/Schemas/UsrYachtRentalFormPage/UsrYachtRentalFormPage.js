@@ -99,12 +99,77 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 			},
 			{
 				"operation": "insert",
-				"name": "Input_yd0iuu7",
+				"name": "RentalManager",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
 						"row": 4,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.UsrYachtRentalDS_UsrRentalManager_gk9zx5h",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "above",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$UsrYachtRentalDS_UsrRentalManager_gk9zx5h",
+					"valueDetails": null
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_duwkvei",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_duwkvei_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "RentalManager",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "TotalPrice",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.UsrYachtRentalDS_UsrColumn13_0yqudtb",
+					"control": "$UsrYachtRentalDS_UsrColumn13_0yqudtb",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "above",
+					"tooltip": ""
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "Input_yd0iuu7",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 6,
 						"rowSpan": 1
 					},
 					"type": "crt.Input",
@@ -118,7 +183,7 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 5
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -159,6 +224,29 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 					"UsrYachtRentalDS_UsrComment_z9phbhz": {
 						"modelConfig": {
 							"path": "UsrYachtRentalDS.UsrComment"
+						}
+					},
+					"UsrYachtRentalDS_UsrColumn13_0yqudtb": {
+						"modelConfig": {
+							"path": "UsrYachtRentalDS.UsrTotalPrice"
+						}
+					},
+					"UsrYachtRentalDS_UsrRentalManager_gk9zx5h": {
+						"modelConfig": {
+							"path": "UsrYachtRentalDS.UsrRentalManager"
+						}
+					},
+					"UsrYachtRentalDS_UsrRentalManager_gk9zx5h_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "Name",
+										"direction": "asc"
+									}
+								]
+							}
 						}
 					}
 				}

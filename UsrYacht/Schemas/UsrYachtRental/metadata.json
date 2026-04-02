@@ -18,6 +18,10 @@
 = MetaData.Schema.EG1.BK4.["8140d7e7-fb91-4999-8347-543345440efb"].CK2.["c803a450-c8dc-47a4-b704-7125c23db317"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
 = MetaData.Schema.EG1.JC1 []
 = MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
++ MetaData.Schema.D29 "null"
++ MetaData.Schema.D30 "null"
++ MetaData.Schema.D31 "null"
++ MetaData.Schema.D38 true
 + MetaData.Schema.D2 {
   "UId": "b6e71279-14c3-f0c2-407e-dcd1fa9212c4",
   "A2": "UsrComment",
@@ -78,6 +82,40 @@
   "E17": "UsrParentYachtId",
   "E18": "UsrParentYachtUsrName"
 }
++ MetaData.Schema.D2 {
+  "UId": "e9a748e2-e3ac-fb0e-a205-3fbd59940840",
+  "A2": "UsrManager",
+  "A3": "7ab0d8b9-05fd-4941-815c-c247c22661dc",
+  "A4": "7ab0d8b9-05fd-4941-815c-c247c22661dc",
+  "A5": "407ec24e-fdf3-4eea-8397-1eff1ca9ca1d",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E20": true,
+  "E17": "UsrManagerId",
+  "E18": "UsrManagerName"
+}
++ MetaData.Schema.D2 {
+  "UId": "b55ecc82-b340-1562-7f9b-fefab6b2f542",
+  "A2": "UsrRentalManager",
+  "A3": "7ab0d8b9-05fd-4941-815c-c247c22661dc",
+  "A4": "7ab0d8b9-05fd-4941-815c-c247c22661dc",
+  "A5": "407ec24e-fdf3-4eea-8397-1eff1ca9ca1d",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E20": true,
+  "E17": "UsrRentalManagerId",
+  "E18": "UsrRentalManagerName"
+}
++ MetaData.Schema.D2 {
+  "UId": "2a4042c8-a075-d48e-82a8-86c53c55df63",
+  "A2": "UsrTotalPrice",
+  "A3": "7ab0d8b9-05fd-4941-815c-c247c22661dc",
+  "A4": "7ab0d8b9-05fd-4941-815c-c247c22661dc",
+  "A5": "407ec24e-fdf3-4eea-8397-1eff1ca9ca1d",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
   "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -89,7 +127,10 @@
   "437b0e68-24ce-e3e1-e514-31f1b6dbe85b",
   "febcb09d-57cc-7909-fd4b-ff1cbef27475",
   "fb3cb410-945d-2a3a-a4be-c1c3b3424e83",
-  "85275ae3-f588-4e8f-8e31-8be035fc1a44"
+  "85275ae3-f588-4e8f-8e31-8be035fc1a44",
+  "e9a748e2-e3ac-fb0e-a205-3fbd59940840",
+  "b55ecc82-b340-1562-7f9b-fefab6b2f542",
+  "2a4042c8-a075-d48e-82a8-86c53c55df63"
 ]
 = MetaData.Schema.D20.A2 "UsrYachtRentalEvents"
 + MetaData.Schema.D20.FA1 false

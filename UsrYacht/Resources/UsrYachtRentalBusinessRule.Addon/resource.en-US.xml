@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.6fbdead3-d778-de69-254d-833f4fc298a6.Caption" Value="Business rule" />
+			<Item Name="Caption" Value="Yacht Rental (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

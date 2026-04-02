@@ -15,6 +15,13 @@
   "A4": "f1d8d132-92f4-4abe-8c09-6fc5d49a6091",
   "A5": "407ec24e-fdf3-4eea-8397-1eff1ca9ca1d"
 }
++ MetaData.Schema.B2 {
+  "UId": "4a3cb315-03ee-c730-c397-50ce26452d6b",
+  "A2": "addRecord_duwkvei_caption",
+  "A3": "f1d8d132-92f4-4abe-8c09-6fc5d49a6091",
+  "A4": "f1d8d132-92f4-4abe-8c09-6fc5d49a6091",
+  "A5": "407ec24e-fdf3-4eea-8397-1eff1ca9ca1d"
+}
 = MetaData.Schema.B2.["3e977072-67fa-588e-d554-1d5c45e71ae9"].A4 "f1d8d132-92f4-4abe-8c09-6fc5d49a6091"
 = MetaData.Schema.B2.["231defdf-a768-e23a-fb30-1af82d65f9f9"].A4 "f1d8d132-92f4-4abe-8c09-6fc5d49a6091"
 = MetaData.Schema.B2.["ec6cab03-1f08-4d53-9ca9-7a76f4b90b87"].A4 "f1d8d132-92f4-4abe-8c09-6fc5d49a6091"
@@ -25,6 +32,7 @@
 ~ MetaData.Schema.B2 [
   "9171210b-a93f-126c-2f66-8c2d1e88e753",
   "9562f660-d1f3-ccdf-6c4b-1d29033ca600",
+  "4a3cb315-03ee-c730-c397-50ce26452d6b",
   "3e977072-67fa-588e-d554-1d5c45e71ae9",
   "231defdf-a768-e23a-fb30-1af82d65f9f9",
   "ec6cab03-1f08-4d53-9ca9-7a76f4b90b87",
@@ -37,7 +45,7 @@
 = MetaData.Schema.B8 "8.3.3.3193"
 = MetaData.Schema.HD1 "ecdcc8ff-272c-4957-9381-7d74ce17e140"
 + MetaData.Schema.HD15 1
-= MetaData.Schema.HD6 "define('{0}Structure', ['{0}Resources'], function(resources) {{return {{schemaUId:'{2}',schemaName:'{3}',parentSchemaUId:'{4}',extendParent:{5},type:Terrasoft.SchemaType.ANGULAR_SCHEMA,entitySchema:'',name:'',extend:'Terrasoft.model.BaseViewModel',schema:{{leftPanel:[],rightPanel:[],actions:[],analytics:[]}},methods:{{}},controlsConfig:{{}},customBindings:{{}},bindings:{{}},parameters:{{}},schemaVersion:0,optionalProperties:{{}},schemaDifferences:function(){{\n{1}\n}}}};}});"
+= MetaData.Schema.HD6 "define('{0}Structure', ['{0}Resources'], function(resources) {{return {{schemaUId:'{2}',schemaName:'{3}',parentSchemaUId:'{4}',extendParent:{5},type:Terrasoft.SchemaType.ANGULAR_SCHEMA,entitySchema:'',name:'',extend:'Terrasoft.model.BaseViewModel',schema:{{leftPanel:[],rightPanel:[],actions:[],analytics:[]}},methods:{{}},controlsConfig:{{}},customBindings:{{}},bindings:{{}},parameters:{{}},schemaVersion:1,optionalProperties:{{}},schemaDifferences:function(){{\n{1}\n}}}};}});"
 - MetaData.Schema.HD2
 - MetaData.Schema.HD9
 - MetaData.Schema.HD10
