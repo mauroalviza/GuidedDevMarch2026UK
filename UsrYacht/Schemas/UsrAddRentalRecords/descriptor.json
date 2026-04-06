@@ -4,6 +4,7 @@
     "Name": "UsrAddRentalRecords",
     "ModifiedOnUtc": "\/Date(1775141821000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Add Rental Records"
+    "Caption": "Add Rental Records",
+    "DependsOn": []
   }
 }
